@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-let shapeType = ["Circle", "Triangle", "Square"];
+let shapeList = ["Circle", "Triangle", "Square"];
 
 const appIntro = `
 ---------------------------------------------
@@ -23,7 +23,7 @@ Enjoy it!
 const questions = [
    {
       type: "input",
-      name: "logoText",
+      name: "shapeText",
       message: "Enter up to 3 characters for your logo text.",
    },
    {
@@ -33,9 +33,9 @@ const questions = [
    },
    {
       type: "list",
-      name: "shape",
+      name: "shapeType",
       message: "Select the shape for your logo.",
-      choices: shapeType,
+      choices: shapeList,
    },
    {
       type: "input",
