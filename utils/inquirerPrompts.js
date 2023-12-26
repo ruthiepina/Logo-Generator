@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-let shapeTypes = ["Circle", "Triangle", "Square"];
+let shapeType = ["Circle", "Triangle", "Square"];
 
 const appIntro = `
 ---------------------------------------------
@@ -35,7 +35,7 @@ const questions = [
       type: "list",
       name: "shape",
       message: "Select the shape for your logo.",
-      choices: shapeTypes,
+      choices: shapeType,
    },
    {
       type: "input",
@@ -45,8 +45,7 @@ const questions = [
 ];
 const inquirerPrompts = async () => {
    console.log(appIntro);
-   const answers = await inquirer.prompt(questions);
-   return { answers, shapeTypes };
+   return await inquirer.prompt(questions);
 };
 
 module.exports = inquirerPrompts;
