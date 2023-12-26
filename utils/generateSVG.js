@@ -12,3 +12,5 @@ const generateSVG = async (logo) => {
 
    return svg;
 };
+
+module.exports = generateSVG;
