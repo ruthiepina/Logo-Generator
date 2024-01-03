@@ -2,7 +2,8 @@
 
 ## Description
 
-
+A Node.js command-line application that prompts the user through Inquirer to select a color and shape, provide text and text color for the
+logo, and save the generated SVG to a .svg file. The application followed OOD, and used Jest for running unit tests.
 
 ## Table of Contents
 
@@ -10,6 +11,7 @@
 -  [Acceptance Criteria](#acceptance-criteria)
 -  [Application Examples](#application-examples)
 -  [Deployment](#deployment)
+-  [Credits](#credits)
 -  [License](#license)
 -  [Questions](#questions)
 
@@ -50,11 +52,26 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Application Examples
 
+![SVG Logo 1](examples/logo1.svg) ![SVG Logo 2](examples/logo2.svg) ![SVG Logo 3](examples/logo3.svg) ![SVG Logo 4](examples/logo4.svg)
+
 ## Deployment
+
+[SVG-Logo-Generator](https://github.com/ruthiepina/SVG-Logo-Generator)
+
+## Credits
+
+-  <https://www.w3schools.com/js/js_switch.asp>
+-  <https://en.wikipedia.org/wiki/SVG>
+-  <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions>
+-  <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes>
+-  <https://www.w3.org/wiki/CSS/Properties/color/keywords>
 
 ## License
 
-MIT
+MIT License
+
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works,
+modifications, and larger works may be distributed under different terms and without source code.
 
 ## Questions
 
