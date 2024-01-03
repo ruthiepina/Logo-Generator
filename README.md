@@ -60,13 +60,18 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Credits
 
-<https://www.w3schools.com/js/js_switch.asp> <https://en.wikipedia.org/wiki/SVG>
-<https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions>
-<https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes> <https://www.w3.org/wiki/CSS/Properties/color/keywords>
+-  <https://www.w3schools.com/js/js_switch.asp>
+-  <https://en.wikipedia.org/wiki/SVG>
+-  <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions>
+-  <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes>
+-  <https://www.w3.org/wiki/CSS/Properties/color/keywords>
 
 ## License
 
-MIT
+MIT License
+
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works,
+modifications, and larger works may be distributed under different terms and without source code.
 
 ## Questions
 
