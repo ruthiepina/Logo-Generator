@@ -2,7 +2,8 @@
 
 ## Description
 
-
+A Node.js command-line application that prompts the user to select a color and shape, provide text and text color for the logo, and save the
+generated SVG to a .svg file.
 
 ## Table of Contents
 
@@ -49,6 +50,8 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 ## Application Examples
+
+![SVG Logo 1](examples/logo1.svg) ![SVG Logo 2](examples/logo2.svg) ![SVG Logo 3](examples/logo3.svg) ![SVG Logo 4](examples/logo4.svg)
 
 ## Deployment
 

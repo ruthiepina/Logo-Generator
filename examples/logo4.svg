@@ -2,6 +2,6 @@
     width="300" height="200"
     xmlns="http://www.w3.org/2000/svg">
     <rect width="100%" height="100%" fill="white" />
-    <rect x="50" width="200" height="200" fill="aliceblue" />
-    <text x="145" y="110" font-size="40" text-anchor="middle" fill="darkblue">ABC</text>
+    <circle cx="150" cy="100" r="100" fill="steelblue" />
+    <text x="145" y="110" font-size="40" text-anchor="middle" fill="silver">SJS</text>
     </svg>
